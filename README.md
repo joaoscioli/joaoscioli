@@ -30,6 +30,20 @@ Planned portfolio standards:
 
 ## Featured Work
 
+### Subscription Billing API
+
+Portfolio-grade backend project built incrementally to demonstrate Java, Spring Boot, REST APIs, Flyway migrations, validation, automated tests, CI, and documentation through a real SaaS billing domain.
+
+Current implemented slices:
+
+- Organizations
+- Customers
+- Plans
+- Subscriptions
+- Subscription cancellation
+
+Repository: https://github.com/joaoscioli/subscription-billing-api
+
 ### Everything About Spring
 
 A structured knowledge base about the Spring ecosystem, covering Spring Boot, Spring Framework, Spring Data, Spring Security, Spring Cloud, messaging, integration, documentation, and related projects.
@@ -50,21 +64,7 @@ Repository: https://github.com/joaoscioli/everything-about-software-architecture
 
 ## Portfolio Project In Progress
 
-### Subscription Billing API
-
-A backend-first mini SaaS project planned to demonstrate:
-
-- Multi-tenant organization and user management
-- JWT authentication and role-based access control
-- Subscription plans and lifecycle rules
-- PostgreSQL with Flyway migrations
-- Integration and unit tests
-- Docker Compose local environment
-- GitHub Actions CI
-- OpenAPI documentation
-- Basic observability with Spring Boot Actuator and Micrometer
-
-This project will be built incrementally with issues, milestones, ADRs, and a release-oriented workflow.
+The main implementation project in progress is the Subscription Billing API. The current goal is to evolve it from a strong backend foundation into a complete portfolio case study with authentication, role-based access control, observability, ADRs, API documentation, and deployment notes.
 
 ## How I Work
 
